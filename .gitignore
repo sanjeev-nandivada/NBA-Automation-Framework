@@ -1,0 +1,40 @@
+# Maven target directories
+target/
+**/target/
+
+# IntelliJ IDEA
+.idea/
+*.iml
+
+# Eclipse
+.project
+.classpath
+.settings/
+
+# VS Code
+.vscode/
+
+# Logs
+logs/
+*.log
+
+# Test Reports (do not upload)
+allure-results/
+allure-report/
+test-output/
+surefire-reports/
+
+# Screenshots
+screenshots/
+screenshots/**
+
+# OS Files
+.DS_Store
+Thumbs.db
+
+# Node modules (if API tests use JS)
+node_modules/
+
+# Environment files
+.env
+*.properties
